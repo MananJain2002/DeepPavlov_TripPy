@@ -1,12 +1,13 @@
 # DeepPavlov_TripPy
 <h1>Goal</h1>
+
 The goal of this project was to improve the architecture of Goal-Oriented Chatbots in the DeepPavlov framework for AI smart assistants. To do so, we decided to implement a new model inspired by the latest State of the Art in Goal-Oriented bots, especially TripPy.
 I have taken the code from [here](https://github.com/deepmipt/DeepPavlov/tree/f72397aa8391283475a88910e8f251a850767df8) and was looking if there were any sort of bugs or in any way I can imporve it.
 
 <h1>DeepPavlov</h1>
 
-DeepPavlov is an open-source conversational AI library built on [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/)
-and [PyTorch](https://pytorch.org/).
+DeepPavlov is an open source framework for chatbots and virtual assistants development. It is built on [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/)
+and [PyTorch](https://pytorch.org/). It has comprehensive and flexible tools that let developers and NLP researchers create production ready conversational skills and complex multi-skill conversational assistants.
 
 DeepPavlov is designed for
 * development of production ready chat-bots and complex conversational systems,
@@ -17,8 +18,10 @@ DeepPavlov is designed for
 <p>* The smallest building block of the library is a Component. A Component stands for any kind of function in an NLP pipeline. It can be implemented as a neural network, a non-neural ML model, or a rule-based system.</p>
 <p>* Components can be joined into a Model or a Skill. A Model solves a larger NLP task than a Component. However, in terms of implementation, Models are not different from Components. What differentiates a Skill from a Model is that the input and output of a Skill should both be strings. Therefore, Skills are usually associated with dialogue tasks.</p>
 
+You can find more about the at https://deeppavlov.ai/
 
 <h1>Various NLP Models </h1>
+
 [Named Entity Recognition](http://docs.deeppavlov.ai/en/master/features/models/ner.html) | [Slot filling](http://docs.deeppavlov.ai/en/master/features/models/slot_filling.html)
 
 [Intent/Sentence Classification](http://docs.deeppavlov.ai/en/master/features/models/classifiers.html) |  [Question Answering over Text (SQuAD)](http://docs.deeppavlov.ai/en/master/features/models/squad.html) 
