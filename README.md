@@ -1,6 +1,7 @@
 # DeepPavlov_TripPy
 <h1>Goal</h1>
 The goal of this project was to improve the architecture of Goal-Oriented Chatbots in the DeepPavlov framework for AI smart assistants. To do so, we decided to implement a new model inspired by the latest State of the Art in Goal-Oriented bots, especially TripPy.
+I have taken the code from [here](https://github.com/deepmipt/DeepPavlov/tree/f72397aa8391283475a88910e8f251a850767df8) and was looking if there were any sort of bugs or in any way I can imporve it.
 
 <h1>DeepPavlov</h1>
 
